@@ -1,4 +1,8 @@
 {
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "root": true,
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "overrides": [
@@ -124,5 +128,8 @@
         }
       }
     }
-  ]
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  }
 }

@@ -126,7 +126,7 @@
     "baseUrl": ".",
   },
   "include": [
-    "src"
+    "src", "packages/components/text"
   ],
   "exclude": [
     "**/node_modules/",
