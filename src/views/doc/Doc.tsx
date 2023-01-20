@@ -1,8 +1,8 @@
 import React, { memo } from 'react';
 import type { ReactNode } from 'react';
 import style from './Doc.module.scss';
-import { Button, Siderbar, SiderbarItem } from '../../../packages';
-import { Link } from 'react-router-dom';
+import { Siderbar, SiderbarItem } from '../../../packages';
+import { Link, Outlet } from 'react-router-dom';
 
 const Doc: React.FC = () => {
   return (
@@ -20,8 +20,9 @@ const Doc: React.FC = () => {
       </div>
       {/* 组件展示 */}
       <div className='content'>
-        <h2>content</h2>
-        <Button>aaa</Button>
+        <Outlet />
+        {/* <h2>content</h2>
+        <Button>aaa</Button> */}
       </div>
     </div>
   );

@@ -70,3 +70,7 @@ declare module '*.module.sass' {
   const classes: { readonly [key: string]: string };
   export default classes;
 }
+
+// 代码高亮显示库
+declare module 'react-syntax-highlighter/dist/esm/styles/hljs';
+declare module 'react-syntax-highlighter';
