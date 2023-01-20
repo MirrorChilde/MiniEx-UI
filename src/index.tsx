@@ -9,6 +9,8 @@ const root = createRoot(document.querySelector('#app'));
 
 root.render(
   <div>
-    <RouterProvider router={router} />
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
   </div>
 );

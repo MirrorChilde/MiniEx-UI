@@ -3,11 +3,7 @@ import type { ReactNode } from 'react';
 import Header from '../header/Header';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 
-interface IProps {
-  children?: ReactNode;
-}
-
-const Main: React.FC<IProps> = () => {
+const Main: React.FC = () => {
   const location = useLocation();
   const nav = useNavigate();
 

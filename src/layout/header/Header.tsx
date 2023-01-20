@@ -4,11 +4,7 @@ import style from './Header.module.scss';
 import { Link } from 'react-router-dom';
 import { Button } from '../../../packages';
 
-interface IProps {
-  children?: ReactNode;
-}
-
-const Header: React.FC<IProps> = () => {
+const Header: React.FC = () => {
   return (
     <div className={style.Header}>
       <div className='left'>

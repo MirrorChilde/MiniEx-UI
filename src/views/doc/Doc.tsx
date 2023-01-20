@@ -3,11 +3,7 @@ import type { ReactNode } from 'react';
 import style from './Doc.module.scss';
 import { Button } from '../../../packages';
 
-interface IProps {
-  children?: ReactNode;
-}
-
-const Doc: React.FC<IProps> = () => {
+const Doc: React.FC = () => {
   return (
     <div className={style.doc}>
       <div className={style.siderbar}>siderbar</div>
