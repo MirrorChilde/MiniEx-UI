@@ -1,16 +1,26 @@
 import React from 'react';
-import { createBrowserRouter } from 'react-router-dom';
-import Docs from 'src/views/Docs';
-import Home from 'src/views/Home';
+import { createHashRouter } from 'react-router-dom';
+import Main from '../layout/main/Main';
+import Docs from '../views/Docs';
+import Home from '../views/Home';
 
-export const router: any = createBrowserRouter([
+// todo router类型问题
+export const router: any = createHashRouter([
   {
     path: '/',
-    element: <Home />,
-  },
-  {
-    path: '/doc',
-    element: <Docs />,
+    element: <Main />,
+    children: [
+      {
+        path: 'home',
+        element: <Home />,
+        children: [],
+      },
+      {
+        path: 'doc',
+        element: <Docs />,
+        children: [],
+      },
+    ],
   },
 ]);
 

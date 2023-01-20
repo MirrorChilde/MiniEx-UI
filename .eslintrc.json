@@ -10,6 +10,7 @@
       "files": ["src/**/*.{ts,tsx}"],
       "parser": "@typescript-eslint/parser",
       "parserOptions": {
+        "allowImportExportEverywhere": true,
         "ecmaVersion": 2017,
         "sourceType": "module",
         "ecmaFeatures": {

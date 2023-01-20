@@ -8,7 +8,7 @@ interface IProps {
 const Docs: React.FC<IProps> = () => {
   return (
     <div className='Docs'>
-      <div>Docs</div>
+      <h2>views/Doc</h2>
     </div>
   );
 };

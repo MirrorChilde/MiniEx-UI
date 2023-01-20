@@ -18,7 +18,9 @@
   "author": "Whiskeyi",
   "license": "MIT",
   "dependencies": {
+    "@remix-run/router": "^1.3.0",
     "@testing-library/react": "^13.4.0",
+    "@types/react-router-dom": "^5.3.3",
     "babel-loader": "^9.1.2",
     "classnames": "^2.3.2",
     "dayjs": "^1.11.7",
@@ -26,6 +28,7 @@
     "pnpm": "^7.9.5",
     "react-router": "^6.6.2",
     "react-router-dom": "^6.6.2",
+    "webpack-dev-server": "^4.11.1",
     "webpack-dom": "^1.0.1"
   },
   "devDependencies": {
@@ -42,6 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^5.30.6",
     "@typescript-eslint/parser": "^5.30.7",
     "commitlint": "^17.4.2",
+    "css-loader": "^6.7.3",
     "eslint": "^8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
@@ -55,6 +59,9 @@
     "prettier": "^2.8.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
     "stylelint": "^14.16.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-rational-order": "^0.1.2",
