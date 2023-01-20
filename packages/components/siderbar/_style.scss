@@ -1,0 +1,18 @@
+.siderbar{
+  padding: $siderbar-padding-y $siderbar-padding-x;
+  box-sizing: border-box;
+  border-right: 1px solid #f0f0f0;
+  height: 100%;
+}
+
+.siderbar-item{
+  font-weight: $siderbar-item-font-weight;
+  padding: $siderbar-item-padding-y $siderbar-item-padding-x;
+  cursor: pointer;
+  &:hover{
+    background-color: $siderbar-item-hover-bg;
+    border-radius: $border-radius;
+  }
+}
+
+

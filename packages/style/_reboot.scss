@@ -216,13 +216,8 @@ sup { top: -.5em; }
 // Links
 
 a {
-  color: $link-color;
-  text-decoration: $link-decoration;
-
-  &:hover {
-    color: $link-hover-color;
-    text-decoration: $link-hover-decoration;
-  }
+  color: inherit;
+  text-decoration: inherit;
 }
 
 // And undo these styles for placeholder links/named anchors (without href).

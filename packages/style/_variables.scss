@@ -172,7 +172,10 @@ $border-radius: 0.25rem !default;
 $border-radius-lg: 0.3rem !default;
 $border-radius-sm: 0.2rem !default;
 
-// 按钮
+/**
+ * button
+ */
+
 // 按钮基本属性
 $btn-font-weight: 400;
 $btn-padding-y: 0.375rem !default;
@@ -210,3 +213,15 @@ $btn-border-radius-sm: $border-radius-sm !default;
 
 $btn-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
   border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !default;
+
+/**
+ * siderbar
+ */
+$siderbar-padding-x: 0.5rem;
+$siderbar-padding-y: 0.5rem;
+
+$siderbar-item-font-weight: 600;
+$siderbar-item-padding-x: 1rem;
+$siderbar-item-padding-y: 0.6rem;
+$siderbar-item-hover-bg: #f0f0f0;
+

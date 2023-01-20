@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
-import type { ReactNode } from 'react';
 import Header from '../header/Header';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
+import style from './Mian.module.scss';
 
 const Main: React.FC = () => {
   const location = useLocation();
@@ -14,7 +14,7 @@ const Main: React.FC = () => {
   }, [location]);
 
   return (
-    <div className='Main'>
+    <div className={style.main}>
       <Header />
       <Outlet />
     </div>
