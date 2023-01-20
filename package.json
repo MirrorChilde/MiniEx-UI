@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "build": "webpack build"
+    "serve": "webpack-dev-server --config ./webpack/webpack-doc.config.js",
+    "build-doc": "webpack --config ./webpack/webpack-doc.config.js",
+    "build-package": "webpack --config ./webpack/webpack-package.config.js"
   },
   "keywords": [
     "ui",

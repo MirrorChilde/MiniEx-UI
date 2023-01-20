@@ -108,7 +108,7 @@
     "target": "ESNext",
     "lib": [
       "ESNext",
-      "DOM"
+      "DOM",
     ],
     "strict": true,
     "declaration": true,
